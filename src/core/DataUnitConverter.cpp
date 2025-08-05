@@ -2,6 +2,7 @@
 #include "Constants.hpp"
 #include <iostream>
 #include <stdexcept>
+#include <cstdint>
 
 std::vector<char> DataUnitConverter::encodeDataUnit(const DataUnit &unit) {
   std::vector<char> encodedData;

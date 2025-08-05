@@ -1,23 +1,13 @@
 # Ignore everything by default
 *
 
-# Allow VSCode files
-!.vscode/
-!.vscode/**
-
 # Allow build folder
 !build/
 !build/**
 
-# Allow output folder
-!output/
-!output/**
 
-# Allow .clangd file
-!.clangd
 
-# Allow compile_commands.json
-!compile_commands.json
+
 
 # Allow all source code files
 !*.cpp
@@ -94,13 +84,21 @@ Thumbs.db
 *.a
 *.lib
 
-# Ignore IDE and editor files (except VSCode)
+# Ignore IDE and editor files
+.vscode/
+.vscode/**
 .idea/
 *.swp
 *.swo
 *~
 .vim/
 *.sublime-*
+
+# Ignore generated files
+compile_commands.json
+.clangd
+output/
+output/**
 
 # Ignore OS generated files
 .DS_Store

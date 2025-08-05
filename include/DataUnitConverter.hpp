@@ -3,6 +3,7 @@
 #include "DataUnit.hpp"
 #include <vector>
 #include <optional>
+#include <cstdint>
 
 class IDataUnitConverter {
 public:
