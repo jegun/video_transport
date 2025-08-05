@@ -55,9 +55,7 @@ Due to TCP's packet nature, data sent from the sender may be split into several 
 ## Building
 
 ```bash
-mkdir build && cd build
-cmake ..
-make
+./scripts/clean_build_test.sh
 ```
 
 ## Testing
