@@ -1,0 +1,121 @@
+# Ignore everything by default
+*
+
+# Allow VSCode files
+!.vscode/
+!.vscode/**
+
+# Allow build folder
+!build/
+!build/**
+
+# Allow output folder
+!output/
+!output/**
+
+# Allow .clangd file
+!.clangd
+
+# Allow compile_commands.json
+!compile_commands.json
+
+# Allow all source code files
+!*.cpp
+!*.hpp
+!*.h
+!*.c
+!*.cc
+!*.cxx
+
+# Allow CMake files
+!CMakeLists.txt
+!**/CMakeLists.txt
+
+# Allow shell scripts
+!*.sh
+
+# Allow documentation
+!*.md
+!*.txt
+
+# Allow resources
+!resources/
+!resources/**
+
+# Allow scripts directory
+!scripts/
+!scripts/**
+
+# Allow include directory
+!include/
+!include/**
+
+# Allow src directory structure
+!src/
+!src/**
+!src/*/
+!src/*/**
+
+# Allow tests directory
+!tests/
+!tests/**
+
+# Allow docs directory
+!docs/
+!docs/**
+
+# Explicitly ignore build artifacts (even if allowed above)
+build/
+build/**
+cmake-build-*/
+*.swp
+*.swo
+*~
+
+# Ignore macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Ignore IDE and editor files (except VSCode)
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+*.sublime-*
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.backup
+*.old
+
+# Ignore generated output files
+received_timestamps.txt
+received_video_data.bin 
