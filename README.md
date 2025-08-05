@@ -55,7 +55,7 @@ Due to TCP's packet nature, data sent from the sender may be split into several 
 ## Building
 
 ```bash
-./scripts/clean_build_test.sh
+./scripts/clean_build_test.sh [Debug|Release]
 ```
 
 ## Testing
@@ -88,5 +88,5 @@ ctest
 
 Run the complete end-to-end test:
 ```bash
-./scripts/full_test_workflow.sh
+./scripts/full_test_workflow.sh [Debug|Release]
 ```
